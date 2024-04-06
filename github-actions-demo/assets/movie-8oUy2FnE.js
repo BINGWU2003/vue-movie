@@ -1,0 +1,1 @@
+import{i as t}from"./http-uaPK1vfr.js";const i=e=>t.post("/addMovie",e),r=e=>t.post("/addManyMovie",e),v=e=>t.get("/getMovie",{params:e}),s=e=>t.delete("/deleteMovie",{params:e}),n=e=>t.post("/editMovie",e),a=()=>t.get("/getAllMovie");export{r as a,v as b,i as c,s as d,n as e,a as g};

@@ -1,0 +1,1 @@
+import{i}from"./http-uaPK1vfr.js";const d=e=>i.post("/addVideoFile",e),o=e=>i.get("/getVideoFile",{params:e}),l=e=>i.get("/getAllVideoFile",{params:e}),r=e=>i.delete("/deleteVideoFile",{params:e});export{d as a,l as b,r as d,o as g};

@@ -1,0 +1,1 @@
+import{i as r}from"./http-uaPK1vfr.js";const s=e=>r.post("/addUser",e),n=e=>r.post("/loginUser",e),o=e=>r.get("/getUser",{params:e}),c=()=>r.get("/getAllUser"),i=e=>r.delete("/deleteUser",{params:e}),U=e=>r.post("/editUser",e),a=e=>r.get("/getUserInfo",{params:e});export{o as a,a as b,s as c,i as d,U as e,c as g,n as l};
