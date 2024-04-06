@@ -16,12 +16,12 @@
  * ..Describe:
  * ..Mark: ૮(˶ᵔ ᵕ ᵔ˶)ა
  */
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 // 页面组件的文件路径
 const modules = import.meta.glob('../views/**/**.vue')
 import { getUserStore } from '@/stores'
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
