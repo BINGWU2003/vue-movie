@@ -1,4 +1,13 @@
 /*
+ * @Author: BINGWU
+ * @Date: 2024-04-06 16:57:02
+ * @LastEditors: BINGWU HuJiaCheng2003@163.com
+ * @LastEditTime: 2024-04-06 17:44:40
+ * @FilePath: \vue-movie\src\router\index.js
+ * @Describe:
+ * @Mark: ૮(˶ᵔ ᵕ ᵔ˶)ა
+ */
+/*
  * ..Author: BINGWU
  * ..Date: 2024-01-20 23:24:08
  * ..LastEditors: BINGWU HuJiaCheng2003..163.com
@@ -58,14 +67,6 @@ const router = createRouter({
       component: () => import('../views/LoginView.vue'),
       meta: {
         name: 'login'
-      }
-    },
-    {
-      path: '/test',
-      name: 'test',
-      component: () => import('../views/test/TestView.vue'),
-      meta: {
-        name: 'test'
       }
     }
   ]
